@@ -1,0 +1,998 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    NextMind.UnitySDK.Runtime.dll:
+    - NextMind.Devices.ConnectedDeviceStatus
+    - NextMind.Devices.ContactsVisualization
+    - NextMind.NeuroTags.NeuroTagFeedback
+    - TriangleFeedbackStimulation
+    NextMind.dll:
+    - NextMind.NeuroManager
+    - NextMind.NeuroTags.NeuroTag
+    - NextMind.Utility.AutoRotate
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.AspectRatioFitter
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1468}
+    - Class: 114
+      Script: {instanceID: 1472}
+    - Class: 114
+      Script: {instanceID: 1474}
+    - Class: 114
+      Script: {instanceID: 1686}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2362}
+    - Class: 114
+      Script: {instanceID: 2474}
+    - Class: 114
+      Script: {instanceID: 2572}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2652}
+    - Class: 114
+      Script: {instanceID: 2768}
+    - Class: 114
+      Script: {instanceID: 2856}
+    - Class: 114
+      Script: {instanceID: 3102}
+    - Class: 114
+      Script: {instanceID: 3522}
+    - Class: 114
+      Script: {instanceID: 3530}
+    - Class: 114
+      Script: {instanceID: 3532}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4292eedb6a976ae37d989f1ff1d31b4a
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: AdjustDeviceStep
+  - hash:
+      serializedVersion: 2
+      Hash: 1ea2fe3df462b737fa71ebd2246b04ed
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples
+    className: HubManager
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 2c95d026fdb9848bafe33e3392241b03
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Feedbacks
+    className: NeuroTagSmoothScale
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: IntroStep
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: b5b22ff200be0c2ca8b7beee01e2116b
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: DescriptionModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples
+    className: ExampleScenesManager
+  - hash:
+      serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: AnimationStep
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 12f8e7f8885166546adf12a8c6ea3a00
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: FlashController
+  - hash:
+      serializedVersion: 2
+      Hash: 9dedbb1c654c9fcb89fbd25665d7663b
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: TweeningSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 90d6590b208678a807a68fec9866c213
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Utility
+    className: DropdownHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: ConclusionStep
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3c5db7899b607102547e8ac929cd55a8
+    assemblyName: NextMind.UnitySDK.Runtime.dll
+    namespaceName: 
+    className: TriangleFeedbackStimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 240219ab36cb6b010523bcbca0a301d3
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Steps
+    className: DeviceUIElement
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: d18c46716c2f35805498fa2969c1d31d
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: DeviceConnectionSubstep
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: ProjectionStep
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 7f6b8236ea991687a591fd24b4503229
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: ToggleReleaseStep
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 4589502b7cf3be9dae29995f95c97ca1
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: VideoPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5fefc51ae3d0bb7ef136b3e245b6531b
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: ChooseDeviceToPairStep
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Utility
+    className: EnsureWorldCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 79cbef72675fd335ac509f375f82447f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: CustomStimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 46b2bf13c6d61ccb614ab3f143a1728f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: RotateTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 122b8063e748cda2ed0f364731dc3723
+    assemblyName: NextMind.UnitySDK.Runtime.dll
+    namespaceName: NextMind.Devices
+    className: ContactsVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 744845daeaeb172f0d11584a35310757
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: FocusStrengthVisualizationStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: PairingSuccessStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e337db450f22dc22b34e4555a789924
+    assemblyName: NextMind.UnitySDK.Runtime.dll
+    namespaceName: NextMind.NeuroTags
+    className: NeuroTagFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3e40034455634bc58faf961fb2ea5132
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: ResultStep
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: ConstantSizeStep
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: GuidelinesSizeStep
+  - hash:
+      serializedVersion: 2
+      Hash: b7d5aa9ca6ea5707502c66107bea0050
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Feedbacks
+    className: NeuroTagParticleBurst
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 447cc7079223eb666512762b5300306a
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: SlideTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 0df0c3948ee5de0b730d00c027965108
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: ScaleTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 18d8a5621ad2f446fa332e4e4cfb3fbd
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Utility
+    className: CircleLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 57a224d69316f0667c3944448249dfac
+    assemblyName: NextMind.UnitySDK.Runtime.dll
+    namespaceName: NextMind.Devices
+    className: ConnectedDeviceStatus
+  - hash:
+      serializedVersion: 2
+      Hash: 259d79c42825b469e16055ea8d906260
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: ZoomStep
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 49235541db799a5f3400618d2e73ab0c
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: ContactQualitySlider
+  - hash:
+      serializedVersion: 2
+      Hash: cfca8481f9527638a0c9d810915a2b87
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Steps
+    className: StepsManager
+  - hash:
+      serializedVersion: 2
+      Hash: eece53e43843e040c435ccc3bebb2d0e
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: SchemeLedBlinker
+  - hash:
+      serializedVersion: 2
+      Hash: 28a0e5b63a0a9df37e007eac2be01555
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: LevitationMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: PairNewDeviceStep
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: CustomStimulationStep
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: fed90ec0b599430143dfa2d8d8e58597
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Steps
+    className: WaitingForSystemReadyStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: ConfirmPairingStep
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: c27b3e2eed145afd0186d1a3c00123d0
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: ImageFadeTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 9dfa3965ab18df0c7f8cbb87d333428a
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Utility
+    className: EventNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 76e7c6fd8440762612c0a2ea01803b81
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: CutPasteStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: NeuroTagGalleryStep
+  - hash:
+      serializedVersion: 2
+      Hash: 17b4acdee39567f6f0a541b48903bac0
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: SelectDeviceStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c27b3e2eed145afd0186d1a3c00123d0
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: TextFadeTransition
+  - hash:
+      serializedVersion: 2
+      Hash: e86179d006810bdf8f28b7467e45d4a4
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Steps
+    className: VideoTutorialStep
+  - hash:
+      serializedVersion: 2
+      Hash: fe1071038560eb2ef1a7d110ba9fb9a6
+    assemblyName: NextMind.dll
+    namespaceName: NextMind.Utility
+    className: AutoRotate
+  - hash:
+      serializedVersion: 2
+      Hash: e4cf4fec476248981f13f9cd82cedab8
+    assemblyName: NextMind.dll
+    namespaceName: NextMind.Utility
+    className: Billboard
+  - hash:
+      serializedVersion: 2
+      Hash: c1c445585ddbba9eb9b4f4f007b823d5
+    assemblyName: NextMind.dll
+    namespaceName: NextMind.Calibration
+    className: CalibrationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.dll
+    namespaceName: NextMind.Unity
+    className: DialogBox
+  - hash:
+      serializedVersion: 2
+      Hash: 33dae7994c710a0fbcaca16c3717910f
+    assemblyName: NextMind.dll
+    namespaceName: NextMind
+    className: NeuroManager
+  - hash:
+      serializedVersion: 2
+      Hash: dd0520a598d1158c256b9a88f41779b7
+    assemblyName: NextMind.dll
+    namespaceName: NextMind.NeuroTags
+    className: NeuroTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.dll
+    namespaceName: NextMind.Unity
+    className: Updater
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8f175d18a35ef5b32750d01d13a17cc0
+    assemblyName: NextMind.UnitySDK.Runtime.dll
+    namespaceName: NextMind.Utility
+    className: ConstantPhysicalSize
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: GuidelinesShapeStep
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: MultipleNeuroTagsStep
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aa2694e4cf671b59ee947e0851cda5e1
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: DeviceConnectionStep
+  - hash:
+      serializedVersion: 2
+      Hash: f30d5154eef21cc5708012132d7b58a0
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: TweeningAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 5cabaa4eaee56a8abde83b41def4300c
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: PersistantToggleStep
+  - hash:
+      serializedVersion: 2
+      Hash: 7775f1d495a6a54ca73180f505eb2869
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: DiscoveryStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: IntroductionStep
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dc99d79689b8162bc08d6df8033763cd
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: LevitatingNeuroTagFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 606ad8ed3d43f362a80b650ec77a4c03
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: 
+    className: ActivationEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Utility
+    className: MouseCursorEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: cd33cf0dc16ca8df6f6badaa4989ff59
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: MonoTargetCalibrationStep
+  - hash:
+      serializedVersion: 2
+      Hash: add9187f135de90a62b02f9dce6ca8f3
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: PasteContainer
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: TrackingCameraStep
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 187c238966626990a006de76df0c2e8d
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Discovery
+    className: ExplosionStep
+  - hash:
+      serializedVersion: 2
+      Hash: fefa77a4dc8d50a2c70a41c27220c2dc
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: LitUnlitStep
+  - hash:
+      serializedVersion: 2
+      Hash: feeee2ea9d174286d6fc86fa6a9dce8c
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Utility
+    className: CanvasFader
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 796bfc9d61fff533411b88363ffb1120
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: WaitingForCalibrationResultsStep
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: ColoredNeuroTagStep
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.Calibration
+    className: InstructionStep
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 67e53d2ce98a4df5b13066d97c1ae821
+    assemblyName: NextMind.UnitySDK.Examples.dll
+    namespaceName: NextMind.Examples.NeuroTagGallery
+    className: RenderModeStep
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/CTW01503/UnityProjects/9w3d/BUILD/9w3d.exe
